@@ -1,9 +1,6 @@
 # **MANUEL D’UTILISATION DES**
 
-## **Introduction**
-
-L'implémentation du Data Encryption Standard (DES)
-en mode ECB en C compte cinq modules à savoir : main, des,
+Un prototype de chiffrement symétrique Data Encryption Standard (DES) en mode ECB permettant de chiffrer et de déchiffrer un fichier texte en hexadécimale. Il compte cinq modules à savoir : main, des,
 msg, file et binary ainsi que le makefile. A part le module main, Chacun à un fichier
 d’en-tête (.h) et un fichier source (.c). Donc nous allons détaillé la description des modules, la configuration minimale, la compilation et l’exécution du code source.
 
