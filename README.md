@@ -1,22 +1,13 @@
-# MANUEL D’UTILISATION DES
+# **MANUEL D’UTILISATION DES**
 
-## Table des matières
-
-1. Introduction
-2. Description des modules
-3. Configuration Minimale
-4. Compilation
-5. Exécution
-6. Conclusion
-
-**Introduction**
+## **Introduction**
 
 Ce rapport présente une implémentation du Data Encryption Standard (DES)
 en mode ECB en C. Il compte cinq modules à savoir : main, des,
 msg, file et binary ainsi que le makefile. A part le module main, Chacun à un fichier
 d’en-tête (.h) et un fichier source (.c). Donc nous allons détaillé la description des modules, la configuration minimale, la compilation et l’exécution du code source.
 
-**Description des modules**
+## **Description des modules**
 
 - main.c est le fichier principal ;
 - des.c contient l’algorithme de DES ;
@@ -29,7 +20,7 @@ d’en-tête (.h) et un fichier source (.c). Donc nous allons détaillé la desc
 - binaryUtil.h prototypes des fonctions contenu dans le fichier binaryUtil.c ;
 - makefile contient les commandes de compilation.
 
-**Configuration Minimale**
+## **Configuration Minimale**
 
 - OS : Linux ;
 - GCC : version 11.3 ;
@@ -37,7 +28,7 @@ d’en-tête (.h) et un fichier source (.c). Donc nous allons détaillé la desc
 - text.txt en hexadécimale contenant le texte à chiffré ;
 - key.txt en hexadécimale pour la clef à 16 caractères.
 
-**Compilation**
+## **Compilation**
 
 - Cloner le projet au "https://github.com/MOUCTAR-MOHAMADOU/DES.git"
 - Dézipper ‘des.zip’ ;
@@ -45,7 +36,7 @@ d’en-tête (.h) et un fichier source (.c). Donc nous allons détaillé la desc
 - Exécuter la commande ‘make’ pour compiler ;
 - Obtention d’un executable ‘des’ après réussite de la compilation.
 
-**Exécution**
+## **Exécution**
 
 - Créer le fichier et insérer du texte ;
 - Le text à chiffré text.txt : "0123456789ABCDEF" ;
